@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# Local env/cache
+.ipynb_checkpoints/
+.DS_Store
+
+# Dataset artifacts (keep compressed source if needed)
+data/Hooktheory.json
+data/*.tmp
+
+# Generated outputs
+output/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
